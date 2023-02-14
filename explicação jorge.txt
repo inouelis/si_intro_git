@@ -18,4 +18,8 @@ Caracteríticas: operações locais (do local vai para o remoto) e criação de 
 - integridade: quando um arquivo é adicionado, todo seu histórico será mantido
 - Somente adição:arquivos removidos não são removidos são marcados como excluidos
 - Colaboração e autonomia: usuários podem realizar alterações sem depender de arquivos do servidor.
-
+para mostrar a versão como estava antes e acessar a alguma versão em específico  usar o comando:
+git checkout numero_Resumo_do_Hash
+ acessa ao resumo do hash usando o git log --oneline
+para voltar ao main:
+git checkout main
