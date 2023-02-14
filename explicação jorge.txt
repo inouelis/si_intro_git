@@ -23,3 +23,10 @@ git checkout numero_Resumo_do_Hash
  acessa ao resumo do hash usando o git log --oneline
 para voltar ao main:
 git checkout main
+Para verificar qual foi a ultima alteração dentro do arquivo usar o:
+git diff e pode especificar o nome do arquivo
+É possível remover um arquivo do staging area com o:
+git restore --staged nome_arquivo
+
+É possível alterar toda a atualização com o:
+git restore .
