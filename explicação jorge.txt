@@ -1,0 +1,21 @@
+GIT
+principais características do sistema de versionamento:
+
+- Controle de versões;
+- Facilidade em desfazer alguma coisa que você fez sem ter que ficar manipulando arquivo por arquivo
+- Comididade de ter várias versões slavas
+	- Ramificações (branches) - criar versões a partir de outras, preservando sua origem;
+	- Junção (merge) das versões;
+Permite trabalho em equipe muito mais transparentes
+Rastreabilidade
+	- permite identificar pontos de mudança
+	- permite identificar os responsaveis pela mudança
+Tipos de controle de versionamento: centralizado (antigo não recomendado)
+não consegue trabalhar em paralelo os desenvolvedores
+
+Sistema distribuido: como o git funciona: baixa uma cópia exata do repositório, permite que vários desenvolvedores trabalhem em conjunto.
+Caracteríticas: operações locais (do local vai para o remoto) e criação de ramificações
+- integridade: quando um arquivo é adicionado, todo seu histórico será mantido
+- Somente adição:arquivos removidos não são removidos são marcados como excluidos
+- Colaboração e autonomia: usuários podem realizar alterações sem depender de arquivos do servidor.
+
