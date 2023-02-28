@@ -33,4 +33,4 @@ git restore .
 NÃO USAR
 git restore --hard (defaz alterações após o ultimo commit ou exclui totalmente o commit)
 Usar: git reset HEAD~1 
-o número indica quais commits vai excluir o registro do commit mas preserva as modificações, volto para o status de modificado, altera o que precisa e adiciona novamente
+o número indica quais commits vai excluir o registro do commit mas preserva as modificações, volto para o status de modificado, altera o que precisa e adiciona novamente.
